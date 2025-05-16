@@ -9,7 +9,9 @@ const Tag: React.FC<TagProps> = ({ tag }) => {
 
   return (
     <div className="inline-flex items-center justify-center px-3 py-0.5 rounded-full border border-tag bg-tag">
-      <span className="text-xs font-normal text-secondary">{displayTag}</span>
+      <span className="text-xs font-normal text-secondary dark:text-neutral-300">
+        {displayTag}
+      </span>
     </div>
   )
 }
