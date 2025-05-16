@@ -5,37 +5,74 @@ import { ThemeProvider } from "./context/ThemeContext"
 import ThemeSwitcher from "./components/ThemeSwitcher"
 import Card from "./components/Card"
 import creatorsData from "./assets/creators.json"
-import type { Persona } from "./components/Card/Card"
+import type { Persona, SocialLink } from "./components/Card/Card"
 
-const firstPersona: Persona = {
-  ...creatorsData[0],
-  id: "alex-altman", // Added id for uniqueness if needed later
-  // Use new URL to correctly resolve the asset path with Vite
-  avatarUrl: new URL(
-    `./assets/avatars/${creatorsData[0].avatar}`,
-    import.meta.url
-  ).href,
-  socialLinks: creatorsData[0].socials.map((social) => ({
-    platform: social.platform.toLowerCase() as
-      | "instagram"
-      | "snapchat"
-      | "youtube"
-      | "tiktok",
-    url: `https://www.${social.platform.toLowerCase()}.com/${
-      social.handle.startsWith("@") ? social.handle.substring(1) : social.handle
-    }`, // Construct a plausible URL
-    followers: social.followers, // Pass raw number
-  })),
+// Define interfaces for the raw data structure from creators.json
+interface RawSocialLink {
+  platform: string
+  handle: string
+  followers: number
 }
+
+interface RawCreatorData {
+  name: string
+  avatar: string
+  age: number
+  gender: string
+  pronouns: string
+  location: string
+  socials: RawSocialLink[]
+  bio: string
+  tags?: string[]
+}
+
+// Helper function to create Persona objects
+const createPersonaObject = (rawData: RawCreatorData, id: string): Persona => {
+  return {
+    ...rawData,
+    id: id,
+    avatarUrl: new URL(`./assets/avatars/${rawData.avatar}`, import.meta.url)
+      .href,
+    socialLinks: rawData.socials.map(
+      (social: RawSocialLink): SocialLink => ({
+        platform: social.platform.toLowerCase() as SocialLink["platform"],
+        url: `https://www.${social.platform.toLowerCase()}.com/${
+          social.handle.startsWith("@")
+            ? social.handle.substring(1)
+            : social.handle
+        }`,
+        followers: social.followers,
+      })
+    ),
+    tags: rawData.tags || [],
+  }
+}
+
+const normalPersona: Persona = createPersonaObject(
+  creatorsData[0],
+  "alex-altman"
+)
+const largePersona: Persona = createPersonaObject(
+  creatorsData[1],
+  "brianna-lee"
+)
+const compactPersona: Persona = createPersonaObject(
+  creatorsData[2],
+  "carlos-rivera"
+)
 
 createRoot(document.getElementById("root")!).render(
   <StrictMode>
     <ThemeProvider>
-      <div className="relative flex flex-col items-center justify-center min-h-screen bg-page text-primary">
+      <div className="relative flex flex-col items-center justify-center min-h-screen bg-page text-primary p-4 md:p-8">
         <div className="absolute top-4 right-4">
           <ThemeSwitcher />
         </div>
-        <Card persona={firstPersona} />
+        <div className="w-full flex flex-col items-center space-y-8">
+          <Card persona={normalPersona} layoutFlavor="normal" />
+          <Card persona={largePersona} layoutFlavor="large" />
+          <Card persona={compactPersona} layoutFlavor="compact" />
+        </div>
       </div>
     </ThemeProvider>
   </StrictMode>
