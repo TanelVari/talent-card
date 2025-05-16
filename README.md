@@ -14,3 +14,4 @@ Git history is preserved. All feature work is done in branches and squash merged
 - The current fonts do not match those specified in the Figma design file.
 - The popover menu is a custom-built component and may exhibit unexpected behavior.
 - Unit tests have not yet been implemented for components. This represents technical debt that must be addressed to ensure long-term maintainability and scalability.
+- Detailed documentation needs to be written. This also represents technical debt; however, as documentation evolves alongside prototype development, it will be addressed in future iterations.
