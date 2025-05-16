@@ -1,54 +1,16 @@
-# React + TypeScript + Vite
+# Creator Talent Card
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+The project was built from the ground up using VS Code Insiders and Copilot Chat in Agent mode. No major UI frameworks were used; as a result, some components may not meet production quality standards. Tailwind CSS v3 was selected due to compatibility challenges with v4 and current LLM knowledge base limitations.
 
-Currently, two official plugins are available:
+I did use multiple LLMs (primarily Claude 3.7 Sonnet, GPT-4.1, and Gemini 2.5 Pro), depending on the task.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+I'm utilizing [custom LLM instructions](.github/copilot-instructions.md) and [GLips/Figma-Context-MCP](https://github.com/GLips/Figma-Context-MCP) server for Figma-to-code integration.
 
-## Expanding the ESLint configuration
+Git history is preserved. All feature work is done in branches and squash merged into `main`.
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+## Known issues
 
-```js
-export default tseslint.config({
-  extends: [
-    // Remove ...tseslint.configs.recommended and replace with this
-    ...tseslint.configs.recommendedTypeChecked,
-    // Alternatively, use this for stricter rules
-    ...tseslint.configs.strictTypeChecked,
-    // Optionally, add this for stylistic rules
-    ...tseslint.configs.stylisticTypeChecked,
-  ],
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
-
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
-
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
-
-export default tseslint.config({
-  plugins: {
-    // Add the react-x and react-dom plugins
-    'react-x': reactX,
-    'react-dom': reactDom,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended typescript rules
-    ...reactX.configs['recommended-typescript'].rules,
-    ...reactDom.configs.recommended.rules,
-  },
-})
-```
+- The overflow menu button in compact mode requires improved visibility and a more intuitive user experience.
+- The current fonts do not match those specified in the Figma design file.
+- The popover menu is a custom-built component and may exhibit unexpected behavior.
+- Unit tests have not yet been implemented for components. This represents technical debt that must be addressed to ensure long-term maintainability and scalability.
