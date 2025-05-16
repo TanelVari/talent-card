@@ -10,7 +10,11 @@ import type { Persona } from "./components/Card/Card"
 const firstPersona: Persona = {
   ...creatorsData[0],
   id: "alex-altman", // Added id for uniqueness if needed later
-  avatarUrl: `/src/assets/avatars/${creatorsData[0].avatar}`,
+  // Use new URL to correctly resolve the asset path with Vite
+  avatarUrl: new URL(
+    `./assets/avatars/${creatorsData[0].avatar}`,
+    import.meta.url
+  ).href,
   socialLinks: creatorsData[0].socials.map((social) => ({
     platform: social.platform.toLowerCase() as
       | "instagram"
