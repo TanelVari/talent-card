@@ -1,0 +1,493 @@
+[
+  {
+    "name": "Alex Altman",
+    "avatar": "alex-altman.png",
+    "age": 27,
+    "gender": "Male",
+    "pronouns": "he/him",
+    "location": "Austin, TX",
+    "socials": [
+      { "platform": "Youtube", "handle": "@alexaltman", "followers": 1540287 },
+      {
+        "platform": "Instagram",
+        "handle": "@alex.altman",
+        "followers": 320456
+      },
+      {
+        "platform": "TikTok",
+        "handle": "@alexaltmantech",
+        "followers": 875932
+      },
+      { "platform": "Snapchat", "handle": "@alexaltman", "followers": 75345 }
+    ],
+    "bio": "Alex turned his passion for technology into a thriving digital career after quitting his software engineering job at a major tech company. His channel offers deep dives into coding, reviews of the latest gadgets, and accessible tutorials on AI and machine learning. What sets Alex apart is his ability to explain complex tech concepts in an engaging, easy-to-understand way that appeals to both beginners and tech enthusiasts. His 'Code with Alex' weekly livestreams have become popular community events.",
+    "tags": [
+      "tech",
+      "coding",
+      "gadgets",
+      "tutorials",
+      "AI",
+      "dev",
+      "reviews"
+    ],
+    "interests": ["robotics", "hackathons", "sci-fi"]
+  },
+  {
+    "name": "Brianna Lee",
+    "avatar": "brianna-lee.png",
+    "age": 23,
+    "gender": "Female",
+    "pronouns": "she/her",
+    "location": "Seattle, WA",
+    "socials": [
+      { "platform": "TikTok", "handle": "@briannalee", "followers": 2167543 },
+      { "platform": "Instagram", "handle": "@briannalee", "followers": 487621 },
+      {
+        "platform": "Youtube",
+        "handle": "@briannaleeofficial",
+        "followers": 356298
+      },
+      { "platform": "Snapchat", "handle": "@briannalee", "followers": 124587 }
+    ],
+    "bio": "Brianna documents her journey as a college student balancing academia with creative pursuits in fashion and lifestyle content. Her authentic takes on student life, budget-friendly fashion hauls, and daily vlogs resonate with young audiences navigating similar experiences. Brianna's content offers practical advice on time management, affordable style, and wellness routines for busy students. Her 'Dorm to Glam' transformation videos have become her signature content, showcasing how to look put-together on a student budget.",
+    "tags": [
+      "lifestyle",
+      "fashion",
+      "college",
+      "vlogs",
+      "wellness",
+      "student",
+      "budget",
+      "style"
+    ],
+    "interests": ["thrift shopping", "yoga", "photography"]
+  },
+  {
+    "name": "Carlos Rivera",
+    "avatar": "carlos-rivera.png",
+    "age": 31,
+    "gender": "Male",
+    "pronouns": "he/him",
+    "location": "Miami, FL",
+    "socials": [
+      { "platform": "Youtube", "handle": "@carlosrivera", "followers": 873542 },
+      { "platform": "TikTok", "handle": "@carlosrivera", "followers": 543287 },
+      {
+        "platform": "Instagram",
+        "handle": "@carlos.rivera.travels",
+        "followers": 623194
+      },
+      { "platform": "Snapchat", "handle": "@carlosrivera", "followers": 89234 }
+    ],
+    "bio": "Carlos left his corporate marketing job to pursue his passion for travel and storytelling. His cinematic travel vlogs showcase hidden gems across the US and Latin America, with a focus on authentic cultural experiences and sustainable tourism. Carlos is known for his breathtaking drone shots and immersive storytelling that makes viewers feel like they're experiencing destinations alongside him. He often collaborates with local guides and creators to highlight diverse perspectives and support local economies in the places he visits.",
+    "tags": [
+      "travel",
+      "vlogs",
+      "adventure",
+      "culture",
+      "cinema",
+      "tourism",
+      "drone",
+      "LatAm"
+    ],
+    "interests": ["photography", "hiking", "languages"]
+  },
+  {
+    "name": "Dana Kim",
+    "avatar": "dana-kim.png",
+    "age": 29,
+    "gender": "Non-binary",
+    "pronouns": "they/them",
+    "location": "San Francisco, CA",
+    "socials": [
+      {
+        "platform": "Instagram",
+        "handle": "@danakim_art",
+        "followers": 672389
+      },
+      {
+        "platform": "Youtube",
+        "handle": "@danakimcreates",
+        "followers": 327841
+      },
+      { "platform": "TikTok", "handle": "@danakim", "followers": 562938 }
+    ],
+    "bio": "Dana is a digital artist and animator who transitioned from traditional art to digital mediums five years ago. Their content showcases mesmerizing time-lapse videos of intricate illustrations and animations, often exploring themes of identity, nature, and futurism. Dana's tutorials on digital art techniques have helped countless aspiring artists develop their skills. They're particularly known for their unique color palettes and seamless animation transitions that have defined their recognizable artistic style.",
+    "tags": [
+      "art",
+      "animation",
+      "digital",
+      "drawing",
+      "tutorials",
+      "timelapse",
+      "identity",
+      "future"
+    ],
+    "interests": ["gallery visits", "sci-fi literature", "music production"]
+  },
+  {
+    "name": "Emily Chen",
+    "avatar": "emily-chen.png",
+    "age": 25,
+    "gender": "Female",
+    "pronouns": "she/her",
+    "location": "New York, NY",
+    "socials": [
+      { "platform": "Youtube", "handle": "@emilychen", "followers": 1247659 },
+      {
+        "platform": "Instagram",
+        "handle": "@emilychen_eats",
+        "followers": 412783
+      },
+      { "platform": "TikTok", "handle": "@emilychen", "followers": 934576 },
+      { "platform": "Snapchat", "handle": "@emilycheneats", "followers": 67892 }
+    ],
+    "bio": "Emily turned her food obsession into a career by showcasing NYC's diverse culinary scene through vibrant food tours and honest restaurant reviews. A former culinary student, she bridges the gap between professional chefs and home cooks with accessible recipes that incorporate techniques from different cultures. Emily's 'Cheap Eats NYC' series has become a go-to guide for budget-friendly but delicious dining options across the five boroughs. Her mouth-watering food photography and genuine reactions make her content both helpful and entertaining.",
+    "tags": [
+      "food",
+      "reviews",
+      "recipes",
+      "NYC",
+      "photos",
+      "culinary",
+      "budget",
+      "tours"
+    ],
+    "interests": ["farmers markets", "cooking classes", "travel"]
+  },
+  {
+    "name": "Frankie Torres",
+    "avatar": "frankie-torres.png",
+    "age": 34,
+    "gender": "Male",
+    "pronouns": "he/him",
+    "location": "Denver, CO",
+    "socials": [
+      {
+        "platform": "Youtube",
+        "handle": "@frankietorres",
+        "followers": 432175
+      },
+      {
+        "platform": "Instagram",
+        "handle": "@frankietorres_outdoors",
+        "followers": 123456
+      },
+      { "platform": "TikTok", "handle": "@frankietorres", "followers": 287659 }
+    ],
+    "bio": "Frankie documents his outdoor adventures in the Rocky Mountains and beyond, combining his background in environmental science with his passion for exploration. His channel features comprehensive gear reviews, survival skills tutorials, and conservation advocacy. Frankie's drone footage captures breathtaking landscapes while his educational content teaches viewers about respecting nature and practicing Leave No Trace principles. His 'Weekend Warrior' series shows how to maximize outdoor adventures even with a full-time job.",
+    "tags": [
+      "outdoors",
+      "hiking",
+      "camping",
+      "biking",
+      "gear",
+      "conservation",
+      "survival",
+      "nature"
+    ],
+    "interests": ["rock climbing", "wildlife photography", "kayaking"]
+  },
+  {
+    "name": "Grace Patel",
+    "avatar": "grace-patel.png",
+    "age": 22,
+    "gender": "Female",
+    "pronouns": "she/her",
+    "location": "Chicago, IL",
+    "socials": [
+      { "platform": "Instagram", "handle": "@gracepatel", "followers": 532784 },
+      {
+        "platform": "TikTok",
+        "handle": "@gracepatel_beauty",
+        "followers": 978234
+      },
+      {
+        "platform": "Youtube",
+        "handle": "@gracepatelbeauty",
+        "followers": 287465
+      },
+      { "platform": "Snapchat", "handle": "@gracepatel", "followers": 94576 }
+    ],
+    "bio": "Grace creates content focused on inclusive beauty and skincare education, emphasizing products that work for diverse skin tones and types. Her honest reviews and detailed breakdowns of ingredient lists help viewers make informed choices about their skincare. As a biochemistry student, she combines scientific knowledge with practical application in her 'Beauty Science Explained' series. Grace is particularly known for featuring indie, cruelty-free brands and for her advocacy for transparency in the beauty industry.",
+    "tags": [
+      "beauty",
+      "skincare",
+      "makeup",
+      "reviews",
+      "inclusive",
+      "products",
+      "cruelty-free",
+      "science"
+    ],
+    "interests": ["chemistry experiments", "vegan cooking", "activism"]
+  },
+  {
+    "name": "Hunter Brooks",
+    "avatar": "hunter-brooks.png",
+    "age": 28,
+    "gender": "Male",
+    "pronouns": "he/him",
+    "location": "Portland, OR",
+    "socials": [
+      { "platform": "Youtube", "handle": "@hunterbrooks", "followers": 765432 },
+      {
+        "platform": "Instagram",
+        "handle": "@hunter_sustainably",
+        "followers": 342198
+      },
+      { "platform": "TikTok", "handle": "@hunterbrooks", "followers": 456789 },
+      { "platform": "Snapchat", "handle": "@hunterbrooks", "followers": 45678 }
+    ],
+    "bio": "Hunter creates practical content about sustainable living, making eco-conscious choices accessible to everyday people. His DIY projects range from urban gardening systems to upcycled furniture, always emphasizing affordability and functionality. With a background in environmental engineering, Hunter brings expertise to topics like renewable energy and water conservation. His 'Sustainable Home Makeover' series shows viewers how small changes can collectively make a significant environmental impact.",
+    "tags": [
+      "sustainability",
+      "eco",
+      "gardening",
+      "DIY",
+      "zero-waste",
+      "energy",
+      "upcycling",
+      "environment"
+    ],
+    "interests": ["woodworking", "composting", "solar energy"]
+  },
+  {
+    "name": "Isabella Rossi",
+    "avatar": "isabella-rossi.png",
+    "age": 26,
+    "gender": "Female",
+    "pronouns": "she/her",
+    "location": "Los Angeles, CA",
+    "socials": [
+      {
+        "platform": "Instagram",
+        "handle": "@isabellarossi",
+        "followers": 984567
+      },
+      {
+        "platform": "TikTok",
+        "handle": "@isabellarossi",
+        "followers": 2245673
+      },
+      {
+        "platform": "Youtube",
+        "handle": "@isabellarossidance",
+        "followers": 654321
+      },
+      {
+        "platform": "Snapchat",
+        "handle": "@isabellarossi",
+        "followers": 123987
+      }
+    ],
+    "bio": "Isabella combines classical dance training with contemporary styles to create innovative choreography that pushes boundaries. Her viral dance challenges have been attempted by millions, while her tutorial breakdowns make complex routines accessible to dancers of all levels. As a former competitive dancer, Isabella shares insights into the professional dance world and advocates for better treatment of dancers in the entertainment industry. Her collaborations with musicians and other dancers showcase the collaborative spirit of the dance community.",
+    "tags": [
+      "dance",
+      "choreography",
+      "performance",
+      "tutorials",
+      "challenges",
+      "contemporary",
+      "advocacy",
+      "collabs"
+    ],
+    "interests": ["ballet", "fashion design", "music festivals"]
+  },
+  {
+    "name": "Jordan Smith",
+    "avatar": "jordan-smith.png",
+    "age": 30,
+    "gender": "Non-binary",
+    "pronouns": "they/them",
+    "location": "Boston, MA",
+    "socials": [
+      { "platform": "Youtube", "handle": "@jordansmith", "followers": 653421 },
+      {
+        "platform": "Instagram",
+        "handle": "@jordansmith_science",
+        "followers": 213456
+      },
+      {
+        "platform": "TikTok",
+        "handle": "@jordansmithscience",
+        "followers": 789234
+      }
+    ],
+    "bio": "Jordan makes complex scientific concepts accessible through engaging experiments, animations, and interviews with leading researchers. Their background in astrophysics brings authority to topics ranging from quantum mechanics to cosmology. Jordan's content aims to inspire curiosity about the universe while addressing common misconceptions in science. Their 'Ask a Scientist' series features expert guests answering viewer questions about cutting-edge research and scientific discoveries.",
+    "tags": [
+      "science",
+      "physics",
+      "astronomy",
+      "education",
+      "experiments",
+      "interviews",
+      "astrophysics",
+      "explainer"
+    ],
+    "interests": ["stargazing", "sci-fi books", "museum visits"]
+  },
+  {
+    "name": "Kayla Nguyen",
+    "avatar": "kayla-nguyen.png",
+    "age": 24,
+    "gender": "Female",
+    "pronouns": "she/her",
+    "location": "Houston, TX",
+    "socials": [
+      { "platform": "TikTok", "handle": "@kaylanguyen", "followers": 1789456 },
+      { "platform": "Snapchat", "handle": "@kaylanguyen", "followers": 324567 },
+      {
+        "platform": "Instagram",
+        "handle": "@kayla_nguyen_comedy",
+        "followers": 432198
+      },
+      {
+        "platform": "Youtube",
+        "handle": "@kaylanguyencomedy",
+        "followers": 234567
+      }
+    ],
+    "bio": "Kayla creates sketch comedy that captures the amusing reality of everyday situations, from awkward dating encounters to workplace scenarios. Her background in improv comedy shines through in her quick-witted content and character work. Kayla's viral series 'Conversations No One Actually Has' satirizes unrealistic movie dialogues, while her 'Professional Overthinker' sketches resonate with anxiety-prone viewers. Her relatable humor has earned her collaborations with major brands looking to add comedic elements to their marketing.",
+    "tags": [
+      "comedy",
+      "sketches",
+      "humor",
+      "relatable",
+      "viral",
+      "improv",
+      "character",
+      "satire"
+    ],
+    "interests": ["stand-up", "film watching", "writing"]
+  },
+  {
+    "name": "Liam Johnson",
+    "avatar": "liam-johnson.png",
+    "age": 32,
+    "gender": "Male",
+    "pronouns": "he/him",
+    "location": "Phoenix, AZ",
+    "socials": [
+      { "platform": "Youtube", "handle": "@liamjohnson", "followers": 342178 },
+      {
+        "platform": "Instagram",
+        "handle": "@liamjohnson_fitness",
+        "followers": 567892
+      }
+    ],
+    "bio": "Liam transitioned from professional athletic training to creating accessible fitness content for people of all ability levels. His channel features evidence-based workout routines, nutritional guidance, and realistic approaches to fitness that emphasize consistency over perfection. Liam's 'Fitness Myth Busters' series debunks common misconceptions in the fitness industry, while his recovery-focused content highlights the importance of rest and injury prevention. His straightforward, no-gimmicks approach has built a loyal community of followers committed to sustainable fitness goals.",
+    "tags": [
+      "fitness",
+      "workout",
+      "nutrition",
+      "training",
+      "motivation",
+      "health",
+      "injury",
+      "evidence"
+    ],
+    "interests": ["hiking", "cooking", "sports psychology"]
+  },
+  {
+    "name": "Maya Thompson",
+    "avatar": "maya-thompson.png",
+    "age": 21,
+    "gender": "Female",
+    "pronouns": "she/her",
+    "location": "Atlanta, GA",
+    "socials": [
+      {
+        "platform": "Instagram",
+        "handle": "@mayathompson",
+        "followers": 412345
+      },
+      { "platform": "TikTok", "handle": "@mayathompson", "followers": 876543 },
+      {
+        "platform": "Youtube",
+        "handle": "@mayathompsonfashion",
+        "followers": 198765
+      },
+      { "platform": "Snapchat", "handle": "@mayathompson", "followers": 54321 }
+    ],
+    "bio": "Maya reinvents fashion through creative thrifting, upcycling, and DIY projects that transform secondhand finds into trendy pieces. Her content challenges fast fashion by demonstrating how to build a unique wardrobe sustainably and affordably. Maya's 'Thrift with Me' series takes viewers along on her shopping trips, while her transformation videos show step-by-step processes for reimagining dated clothing. Her colorful, maximalist aesthetic celebrates individuality and self-expression through personal style.",
+    "tags": [
+      "fashion",
+      "DIY",
+      "upcycling",
+      "thrift",
+      "sustainable",
+      "sewing",
+      "style",
+      "secondhand"
+    ],
+    "interests": ["vintage collecting", "painting", "flea markets"]
+  },
+  {
+    "name": "Noah Williams",
+    "avatar": "noah-williams.png",
+    "age": 35,
+    "gender": "Male",
+    "pronouns": "he/him",
+    "location": "San Diego, CA",
+    "socials": [
+      { "platform": "Youtube", "handle": "@noahwilliams", "followers": 987654 },
+      {
+        "platform": "Twitch",
+        "handle": "@noahwilliamsgaming",
+        "followers": 543219
+      },
+      { "platform": "TikTok", "handle": "@noahwilliams", "followers": 324567 },
+      {
+        "platform": "Instagram",
+        "handle": "@noah_williams_gaming",
+        "followers": 213456
+      }
+    ],
+    "bio": "Noah creates gaming content spanning multiple genres, from in-depth strategy guides to entertaining let's plays of the latest releases. His analytical approach to game mechanics helps viewers improve their skills, while his community tournaments foster a sense of friendly competition. Noah is particularly known for supporting indie game developers by showcasing promising new titles on his channel. His 'Gaming History' series explores the evolution of video games and the cultural impact of landmark titles.",
+    "tags": [
+      "gaming",
+      "streaming",
+      "reviews",
+      "tournaments",
+      "strategy",
+      "gameplay",
+      "indie",
+      "retro"
+    ],
+    "interests": ["game development", "collecting consoles", "board games"]
+  },
+  {
+    "name": "Olivia Martinez",
+    "avatar": "olivia-martinez.png",
+    "age": 28,
+    "gender": "Female",
+    "pronouns": "she/her",
+    "location": "Dallas, TX",
+    "socials": [
+      {
+        "platform": "Instagram",
+        "handle": "@oliviamartinez",
+        "followers": 675432
+      },
+      {
+        "platform": "Youtube",
+        "handle": "@oliviamartinezwellness",
+        "followers": 456789
+      },
+      { "platform": "TikTok", "handle": "@oliviamartinez", "followers": 789123 }
+    ],
+    "bio": "Olivia combines her background in psychology with certifications in yoga and nutrition to create holistic wellness content. Her channel features guided meditation sessions, gentle yoga flows, and nutritious recipe tutorials designed for busy lifestyles. Olivia emphasizes the connection between mental and physical health, offering practical tools for stress management and mindful living. Her 'Wellness Wednesday' series addresses common health concerns with evidence-based approaches while acknowledging that wellness looks different for everyone.",
+    "tags": [
+      "wellness",
+      "yoga",
+      "mindfulness",
+      "recipes",
+      "mental",
+      "meditation",
+      "nutrition",
+      "health"
+    ],
+    "interests": ["nature walks", "psychology books", "tea brewing"]
+  }
+]
